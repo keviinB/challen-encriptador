@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="shortcut icon" href="img/dummy.ico" type="image/x-icon">
+  
+  <title>Encrypt</title>
+</head>
+<body>
+  <div class="header">
+    <a href="https://www.linkedin.com/in/kevin-bayona-sierra-36ba14273/"><img src="img/linkedin.png" alt="icon linkedin"></a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/keviinB"><img src="img/github.png" alt="icon github"></a>
+  </div>
+
+  <div class="container">
+    <!-- encriptar -->
+    <div class="box box-enc">
+      <textarea id="input-texto" clase="copy text" name="input-texto"  rows="10" placeholder="Ingresa el texto"></textarea>
+      <br>
+      <input class="btn-enc" type="button" value="Encriptar 🔒" id="btn-encriptar">       
+    </div>
+
+    <!-- desencriptar -->
+    <div class="box">
+      <textarea id="input-texto-desencriptar"  name="input-salida"  rows="10" placeholder="Ingresa el texto a desencriptar" ></textarea>
+      <br>
+      <input class="btn-des" type="button" value="Desencriptar 🔓!" id="btn-desencriptar"> 
+      <input class="btn-des btn-copy" type="button" value="Copiar 📄" id=""> 
+    </div>
+  </div>  
+
+  <script src="script.js"></script>
+  <script src="Copiar-pegar.js"></script>
+  <!-- CDN sweetalert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
